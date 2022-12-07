@@ -1,0 +1,23 @@
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image{
+    position: absolute;
+    height: 600px;
+    width: 1298px;
+    background-image: url(../../image/Main.png);
+}
+.subtext{
+    color: #Ffffff;
+    font-size: 24px;
+    margin: 136px auto 0;
+    -webkit-text-stroke: 0.5px black;
+}
+.maintext{
+    color: #Ffffff;
+    font-size: 64px;
+    margin: 40px auto;
+}

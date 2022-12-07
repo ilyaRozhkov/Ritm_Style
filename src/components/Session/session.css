@@ -1,0 +1,50 @@
+.title{
+    font-family: "ELMessiri-Bold";
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sessioncontainer{
+
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 24px;
+}
+.column-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.big-content{
+    width: 416px;
+    height: 540px;
+    background-image: url(../../image/Sessions.png);
+}
+.litle-content{
+    width: 416px;
+    height: 258px;
+    background-image: url(../../image/Sessilon-litle.png);
+}
+
+.big-title{
+
+    top: 440px;
+    left: 50px;
+    position: relative;
+}
+.litle-title{
+    top: 180px;
+    left: 40px;
+    position: relative;
+}
+.litle-title-rigth-title{
+    top: 145px;
+    left: 40px;
+    width: 253px;
+    position: relative;
+}

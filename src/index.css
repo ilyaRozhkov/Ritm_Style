@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "ELMessiri-Bold";
+  src: url(./font/ElMessiri-Bold.ttf);
+}
+@font-face {
+  font-family: "ELMessiri-Medium";
+  src: url(./font/ElMessiri-Medium.ttf);
+}
+@font-face {
+  font-family: "ELMessiri-Regular";
+  src: url(./font/ElMessiri-Regular.ttf);
+}
+@font-face {
+  font-family: "ELMessiri-SemiBold";
+  src: url(./font/ElMessiri-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Proxima-nova";
+  src: url(./font/ProximaNovaT-Thin.ttf);
+}
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+body {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #162831;
+  font-family: "ELMessiri-Bold";
+  
+}
+.root{
+  margin: auto;
+}
